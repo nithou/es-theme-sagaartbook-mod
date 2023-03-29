@@ -22,9 +22,9 @@
          <pos>0.0625 .83</pos>
       </text>
       <image name="md_image">
-         <pos>0.0625 0.414</pos>
+         <pos>0.2375 0.414</pos>
       </image>
-      <image name="md-media-mask" extra="true">
+      <image name="md-media-mask" extra="false">
          <path>./../_art/assets/metadata-min-flipped.svg</path>
       </image>
    </view>
