@@ -238,13 +238,13 @@ Original:    ArtBook 3:2 by anthonycaccese https://github.com/anthonycaccese/es-
     </view>
 	
 	<subset name="metadata" displayName="Gamelist View Style">
-      <include name="off" displayName="No Metadata">./_art/xml/metadata-off.xml</include>
-      <include name="min" displayName="Minimum Metadata">./_art/xml/metadata-min.xml</include>
+      <!--<include name="off" displayName="No Metadata">./_art/xml/metadata-off.xml</include>-->
+      <!--<include name="min" displayName="Minimum Metadata">./_art/xml/metadata-min.xml</include>-->
       <include name="min-flipped" displayName="Minimum Metadata (Flipped)">./_art/xml/metadata-min-flipped.xml</include>
-      <include name="max" displayName="Maximum Metadata">./_art/xml/metadata-max.xml</include>
-      <include name="max-flipped" displayName="Maximum Metadata (Flipped)">./_art/xml/metadata-max-flipped.xml</include>
-      <include name="media-only" displayName="Media Only">./_art/xml/metadata-media-only.xml</include>
-      <include name="polymega" displayName="Polymega">./_art/xml/metadata-polymega.xml</include>
+      <include name="max" displayName="Maximum Metadata">./_art/xml/metadata-max.xml</include>-->
+      <!--<include name="max-flipped" displayName="Maximum Metadata (Flipped)">./_art/xml/metadata-max-flipped.xml</include>-->
+      <!--<include name="media-only" displayName="Media Only">./_art/xml/metadata-media-only.xml</include>-->
+      <!--<include name="polymega" displayName="Polymega">./_art/xml/metadata-polymega.xml</include>-->
    </subset>
 	
    <subset name="background" displayName="System Background">

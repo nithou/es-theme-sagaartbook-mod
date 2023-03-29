@@ -13,12 +13,12 @@
 
     <view name="system">
 	<image name="overlay" extra="true">
-        <path>./../_art/assets/clearoverlay.png</path>
+        <path>./../_art/assets/shader.png</path>
         <tile>true</tile>
         <maxSize>1 1</maxSize>
 		<zIndex>1</zIndex>
     </image>
-    <image name="arkwork" extra="true">
+    <image name="artkwork" extra="true">
         <path>./../_art/backgrounds32/${system.theme}.jpg</path>
         <tile>false</tile>
         <origin>0.5 0.5</origin>
