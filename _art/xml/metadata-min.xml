@@ -4,7 +4,7 @@
 
    <include>./metadata-on.xml</include>
 
-   <view name="detailed,video,grid">
+   <view name="detailed">
       <textlist name="gamelist">
          <size>0.42 0.825</size>
          <alignment>left</alignment>
@@ -29,7 +29,7 @@
          <fontSize>0.03</fontSize>
       </datetime>
       <text name="md_description">
-         <visible>true</visible>
+         <visible>false</visible>
          <pos>0.5375 .83</pos>
          <size>0.4 0.1</size>
          <fontSize>0.03</fontSize>
@@ -41,17 +41,4 @@
          <path>./../_art/assets/metadata-min.svg</path>
       </image>
    </view>
-
-   <view name="video,grid">
-      <video name="md_video">
-         <pos>0.7375 0.414</pos>
-      </video>
-   </view>
-
-   <view name="grid">
-      <imagegrid name="gamegrid">
-         <size>0.425 0.764</size>
-      </imagegrid>
-   </view>
-
 </theme>

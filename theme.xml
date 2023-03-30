@@ -1,8 +1,8 @@
 <!--
-Theme name:  Saga ArtBook
-Theme by:    Jetup13
-Version:     1.1
-Original:    ArtBook 3:2 by anthonycaccese https://github.com/anthonycaccese/es-theme-art-book-3-2
+Theme name:  RG353V ArtBook
+Theme by:    Nithou
+Version:     0.3
+Original:    ArtBook 3:2 RG353V by Nithou, based on anthonycaccese https://github.com/nithou/es-theme-sagaartbook-mod
 -->
 
 <theme>
@@ -16,34 +16,34 @@ Original:    ArtBook 3:2 by anthonycaccese https://github.com/anthonycaccese/es-
     </variables>
 
     <view name="system">
-    <carousel name="systemcarousel">
-        <color>00000000</color>
-        <origin>0 0</origin>
-        <pos>0 0</pos>
-        <size>1 1</size>
-        <logoScale>1</logoScale>
-        <logoSize>0.5 0.5</logoSize>
-        <maxLogoCount>1</maxLogoCount>
-    </carousel>
-	
-    <image name="logo">
-		 <path>./_art/logos/white/${system.theme}.png</path>
-    </image>
-	
-	<text name="systemInfo">
-        <fontPath>${Font}</fontPath>
-        <alignment>left</alignment>
-        <backgroundColor>00000000</backgroundColor>
-        <forceUppercase>1</forceUppercase>
-        <color>ffffff0</color>
-        <origin>0 0</origin>
-        <pos>0.003 0.6</pos>
-        <size>0.400 0.039</size>
-        <fontSize>0.0315</fontSize>
-    </text>
+      <carousel name="systemcarousel">
+         <color>00000000</color>
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <logoScale>1</logoScale>
+         <logoSize>0.5 0.5</logoSize>
+         <maxLogoCount>1</maxLogoCount>
+      </carousel>
+      
+      <image name="logo">
+         <path>./_art/logos/white/${system.theme}.png</path>
+      </image>
+      
+      <text name="systemInfo">
+         <fontPath>${Font}</fontPath>
+         <alignment>left</alignment>
+         <backgroundColor>00000000</backgroundColor>
+         <forceUppercase>1</forceUppercase>
+         <color>ffffff0</color>
+         <origin>0 0</origin>
+         <pos>0.003 0.6</pos>
+         <size>0.400 0.039</size>
+         <fontSize>0.0315</fontSize>
+      </text>
    </view>	
 
-   <view name="basic,detailed,video,grid">
+   <view name="basic,detailed,grid">
       <image name="background" extra="true">
          <color>000000</color>
       </image>
@@ -64,7 +64,7 @@ Original:    ArtBook 3:2 by anthonycaccese https://github.com/anthonycaccese/es-
       </text>
    </view>
 
-   <view name="basic,detailed,video">
+   <view name="basic,detailed">
       <textlist name="gamelist">
          <pos>0.05 0.335</pos>
          <size>0.9 0.64</size>
@@ -81,7 +81,7 @@ Original:    ArtBook 3:2 by anthonycaccese https://github.com/anthonycaccese/es-
       </textlist>
    </view>
    
-  <view name="detailed,video,grid">
+  <view name="detailed">
       <text name="md_lbl_rating,md_lbl_developer,md_developer,md_lbl_publisher,md_publisher,md_lbl_playcount,md_playcount,md_lbl_lastplayed,md_lbl_players,md_players,md_lbl_releasedate,md_lbl_genre,md_genre,md_description,md_name,md_lbl_gametime,md_gametime">
          <visible>false</visible>
          <fontPath>${Font}</fontPath>
@@ -113,14 +113,14 @@ Original:    ArtBook 3:2 by anthonycaccese https://github.com/anthonycaccese/es-
          <color>222222</color>
       </text>
       <textlist name="gamelist">
-         <pos>0.05 0.335</pos>
+         <pos>0.05 0.0</pos>
          <size>0.42 0.64</size>
          <alignment>left</alignment>
       </textlist>
       <image name="md_image">
          <origin>0.5 0.5</origin>
-         <pos>0.7375 0.578</pos>
-         <maxSize>0.4 0.45</maxSize>
+         <pos>0.9 0.9</pos>
+         <maxSize>0.5 0.55</maxSize>
       </image>
       <image name="md-media-mask" extra="true">
          <origin>0 0</origin>
@@ -129,122 +129,59 @@ Original:    ArtBook 3:2 by anthonycaccese https://github.com/anthonycaccese/es-
          <zIndex>3</zIndex>
       </image>
    </view>
-
-   <view name="video,grid">
-      <image name="md_marquee">
-         <visible>false</visible>
-      </image>
-      <image name="md_image">
-         <visible>false</visible>
-      </image>
-      <video name="md_video">
-         <origin>0.5 0.5</origin>
-         <pos>0.7375 0.578</pos>
-         <maxSize>0.4 0.45</maxSize>
-         <delay>0.5</delay>
-         <showSnapshotDelay>true</showSnapshotDelay>
-         <showSnapshotNoVideo>true</showSnapshotNoVideo>
-         <snapshotSource>image</snapshotSource>
-         <snapshotSource>thumbnail</snapshotSource>
-         <zIndex>2</zIndex>
-		 <effect>none</effect>
-      </video>
-   </view>
-
-   <view name="grid">
-      <image name="md_image,md_media_bezel,md_media_screen,help-favorite,help-launch">
-         <visible>false</visible>
-      </image>
-      <video name="md_video">
-         <visible>false</visible>
-         <showSnapshotDelay>false</showSnapshotDelay>
-      </video>
-      <imagegrid name="gamegrid">
-         <pos>0.05 0.325</pos>
-         <size>0.9 0.60</size>
-         <margin>0 0</margin>
-         <padding>0 0 0 0</padding>
-         <autoLayout>3 1</autoLayout>
-         <autoLayoutSelectedZoom>1.0</autoLayoutSelectedZoom>
-         <centerSelection>true</centerSelection>
-         <animateSelection>false</animateSelection>
-         <scrollSound>./_art/assets/scroll.wav</scrollSound>
-         <scrollDirection>horizontal</scrollDirection>
-         <scrollLoop>true</scrollLoop>
-      </imagegrid>
-      <gridtile name="default">
-         <padding>5 5</padding>
-         <backgroundCornerSize>0 0</backgroundCornerSize>
-         <selectionMode>image</selectionMode>
-         <backgroundColor>11111100</backgroundColor>
-         <imageColor>ffffff44</imageColor>
-      </gridtile>
-      <gridtile name="selected">
-         <backgroundColor>ffffff11</backgroundColor>
-         <imageColor>ffffffff</imageColor>
-      </gridtile>
-      <text name="gridtile">
-         <alignment>center</alignment>
-         <fontPath>${Font}</fontPath>
-         <fontSize>0.036</fontSize>
-         <lineSpacing>1.2</lineSpacing>
-         <color>111111</color>
-      </text>
-      <text name="gridtile_selected">
-         <color>cccccc</color>
-      </text>
-   </view>
 	
-	<view name="system, video, detailed, basic, grid">
-	<helpsystem name="help">
-		<origin>2 2</origin>
-    </helpsystem>
+	<view name="system, detailed">
+      <helpsystem name="help">
+         <origin>2 2</origin>
+      </helpsystem>
 	</view>
 
     <view name="menu">
-    <menuBackground name="menubg">
-	 <color>202020</color>
-    </menuBackground>
-	
-	<menuText name="menutext, menutitle">
-	  <fontPath>${Font}</fontPath>
-	  <fontSize>.038</fontSize>
-	  <color>ffffff</color>
-	</menuText>
-	
-	<menuText name="menufooter, menutextsmall">
+      <menuBackground name="menubg">
+      <color>202020</color>
+      </menuBackground>
+      
+      <menuText name="menutext, menutitle">
       <fontPath>${Font}</fontPath>
-      <fontSize>.029</fontSize>		 
+      <fontSize>.038</fontSize>
       <color>ffffff</color>
-    </menuText>
-	
-	<menuTextEdit name="menutextedit">
-      <inactive>./_art/assets/textinput_inactive.png</inactive>
-      <active>./_art/assets/textinput_active.png</active>
-    </menuTextEdit>
+      </menuText>
+      
+      <menuText name="menufooter, menutextsmall">
+         <fontPath>${Font}</fontPath>
+         <fontSize>.029</fontSize>		 
+         <color>ffffff</color>
+      </menuText>
+      
+      <menuTextEdit name="menutextedit">
+         <inactive>./_art/assets/textinput_inactive.png</inactive>
+         <active>./_art/assets/textinput_active.png</active>
+      </menuTextEdit>
 	</view>
 	
-	<view name="screen">
-   
-    <text name="clock">
-	  <fontPath>${Font}</fontPath>
-      <fontSize>0.04</fontSize>
-	   <color>ffffff44</color>
-      <pos>0.06 .05</pos>
-      <size>0.4 0.039</size>
-      <alignment>left</alignment>
-      <verticalAlignment>center</verticalAlignment>
-    </text>
-    </view>
+   <view name="screen">
+      <text name="clock">
+         <fontPath>${Font}</fontPath>
+         <color>FFFFFF55</color>
+         <fontSize>0.035</fontSize>
+         <pos>0.05 0.05</pos>
+         <size>0.09 0.058</size>
+         <alignment>left</alignment>
+         <verticalAlignment>center</verticalAlignment>
+      </text>
+      <batteryIndicator name="batteryIndicator">
+         <pos>0.76 0.075</pos>
+         <size>0.05 0.05</size>
+         <color>FFFFFF55</color>
+         <alignment>right</alignment>
+      </batteryIndicator>
+      <controllerActivity name="controllerActivity">
+         <visible>false</visible>
+      </controllerActivity>
+   </view>
 	
 	<subset name="metadata" displayName="Gamelist View Style">
-      <!--<include name="off" displayName="No Metadata">./_art/xml/metadata-off.xml</include>-->
-      <!--<include name="min" displayName="Minimum Metadata">./_art/xml/metadata-min.xml</include>-->
       <include name="min-flipped" displayName="Minimum Metadata (Flipped)">./_art/xml/metadata-min-flipped.xml</include>
-      <include name="max" displayName="Maximum Metadata">./_art/xml/metadata-max.xml</include>-->
-      <!--<include name="max-flipped" displayName="Maximum Metadata (Flipped)">./_art/xml/metadata-max-flipped.xml</include>-->
-      <!--<include name="media-only" displayName="Media Only">./_art/xml/metadata-media-only.xml</include>-->
-      <!--<include name="polymega" displayName="Polymega">./_art/xml/metadata-polymega.xml</include>-->
    </subset>
 	
    <subset name="background" displayName="System Background">

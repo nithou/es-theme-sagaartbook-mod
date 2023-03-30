@@ -2,7 +2,7 @@
 <theme>
    <formatVersion>7</formatVersion>
 
-   <view name="detailed,video">
+   <view name="detailed">
       <image name="help-options" extra="true">
          <origin>0 0</origin>
          <pos>0.5416666666666667 0.86</pos>
@@ -20,12 +20,6 @@
       <image name="md-media-mask" extra="true">
          <path>./../_art/assets/metadata-off.svg</path>
 		 <zIndex>3</zIndex>
-      </image>
-   </view>
-
-   <view name="grid">
-      <image name="background" extra="true">
-         <color>111111</color>
       </image>
    </view>
 
