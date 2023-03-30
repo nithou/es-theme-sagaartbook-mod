@@ -43,7 +43,7 @@ Original:    ArtBook 3:2 RG353V by Nithou, based on anthonycaccese https://githu
       </text>
    </view>	
 
-   <view name="basic,detailed,grid">
+   <view name="basic,detailed">
       <image name="background" extra="true">
          <color>000000</color>
       </image>
@@ -117,11 +117,6 @@ Original:    ArtBook 3:2 RG353V by Nithou, based on anthonycaccese https://githu
          <size>0.42 0.64</size>
          <alignment>left</alignment>
       </textlist>
-      <image name="md_image">
-         <origin>0.5 0.5</origin>
-         <pos>0.9 0.9</pos>
-         <maxSize>0.5 0.55</maxSize>
-      </image>
       <image name="md-media-mask" extra="true">
          <origin>0 0</origin>
          <pos>0 0</pos>

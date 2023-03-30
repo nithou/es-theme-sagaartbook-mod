@@ -10,24 +10,20 @@
       </image>
       <textlist name="gamelist">
          <pos>0.48 0.16</pos>
-         <size>0.458333333333333 0.960</size>
+         <size>0.408333333333333 0.960</size>
       </textlist>
       <image name="md_image">
-         <pos>0.02 0.17</pos>
-         <origin>0 0</origin>
-         <maxSize>0.40 0.960</maxSize>
+         <pos>0.2075 0.45</pos>
+         <maxSize>0.45 0.50</maxSize>
       </image>
       <text name="md_name">
          <pos>0.020 .785</pos>
-         <visible>false</visible>
       </text>
       <rating name="md_rating">
          <pos>0.019 .846</pos>
-         <visible>false</visible>
       </rating>
       <datetime name="md_releasedate">
          <pos>0.2025 .836</pos>
-         <visible>false</visible>
       </datetime>
       <image name="md-media-mask" extra="true">
          <path>./../_art/assets/metadata-min-flipped.svg</path>

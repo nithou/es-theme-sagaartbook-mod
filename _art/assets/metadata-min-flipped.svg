@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" fill="none" viewBox="0 0 640 480">
   <g clip-path="url(#a)">
-    <path fill="#000" d="M40 480H0V-.5v392h315V-.5h325V480H40ZM0-.5V0h640v-.5H0Z"/>
+    <path fill="#000" d="M40 480H0V-.5v482h315V-.5h325V480H40ZM0-.5V0h640v-.5H0Z"/>
   </g>
   <defs>
     <clipPath id="a">
